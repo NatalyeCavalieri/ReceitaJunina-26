@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  /*overflow: hidden;  /* nao cria o scrol na página*/ 
+}
+
+:root{
+  font-size: 62.5%;
+
+  /*text-color*/
+  --text-color-h1:#58190A;
+  --text-color-h2: #FEECE0;
+  --text-color-greencorn: #58190A;
+  --text-color-portions: #9B6647;
+  --text-color-list: #fff;
+
+  /*background*/
+  --bg-colortop: #FEECE0;
+  --bg-colorbottom: #9B6647;
+
+  /*font-family*/
+  --font-top:'Source Serif 4', serif;
+  --font-bottom: 'Source Sans 3', sans-serif;
+}
+
+section.top{
+  background: var(--bg-colortop);
+  font-family: var(--font-top);
+  display: flex;
+  align-items: center;
+  gap: 5.6rem;
+  justify-content: center;
+  padding: 11.2rem 21.2rem 5.6rem 21.2rem;
+}
+
+picture img{
+  width: 40.9rem;
+  height: 29.3rem;
+}
+
+
+.info h1{
+  color: var(--text-color-h1);
+  font-size: 7.2rem;
+}
+
+.info p{
+  color: var(--text-color-greencorn);
+  font-size: 3.8rem;
+  margin: 3.0rem 0;
+}
+
+
+.buttons span, 
+.buttons p{
+  font-size: 3.5rem;
+  color: var(--text-color-portions);
+}
+#counter{
+  color: var(--text-color-portions);
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap:2.0rem;
+}
+
+#button-minus, #button-plus{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.bottom{
+  display: flex;
+  background: var(--bg-colorbottom);
+  font-family: var(--font-bottom);
+  height: 100vh;
+  justify-content: center;
+  gap:6.4rem;
+  padding: 6.4rem 5.0rem;
+}
+ 
+.col1>div,
+.col2>div{
+  display: flex;
+  gap:1rem;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+
+
+
+ul li,h1,
+ol li,h1{
+  color: #fff;
+  font-size: 2.8rem;
+}
+
+h1{
+  font-family: var(--font-top);
+  font-size: 3.8rem;
+  
+}
+
+
+ul li,
+ol li{
+  font-family: var(--font-bottom);
+  
+}
+
+ul, ol{
+  padding-left: 3.8rem;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #89d291 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #9B6647;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #89d291;
+    border-radius: 10px;
+    border: 3px solid #9B6647;
+  }
+
+@media (max-width:700px){
+
+  section.top{
+    gap: 1.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  picture img{
+    width:10rem;
+    height: 10rem;
+  }
+
+  .info h1{
+    color: var(--text-color-h1);
+    font-size: 3rem;
+  }
+  
+  .info p{
+    color: var(--text-color-greencorn);
+    font-size: 1.5rem;
+    margin: 3.0rem 0;
+  }
+  
+  .buttons span, 
+  .buttons p{
+    font-size: 1.5rem;
+  }
+
+  #button-minus img,
+  #button-plus img
+  {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .buttons{
+    gap:1.0rem;
+  }
+
+ul li,
+ol li{
+  font-size: 1.5rem;
+}
+
+li{
+  margin-bottom: 2.0rem;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+.bottom{
+  gap:1.5rem;
+  padding: 1rem 1rem;
+}
+.col1 img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.col2 img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+ul, ol{
+  padding-left: 2rem;
+}
+
+}
