@@ -145,7 +145,7 @@ ul, ol{
     border: 3px solid #9B6647;
   }
 
-@media (max-width:350px){
+@media (max-width:500px){
 
   section.top{
     gap: 1rem;
