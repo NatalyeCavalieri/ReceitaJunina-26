@@ -148,7 +148,7 @@ ul, ol{
 @media (max-width:350px){
 
   section.top{
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 1rem 1rem 1rem 1rem;
   }
 
@@ -165,7 +165,7 @@ ul, ol{
   .info p{
     color: var(--text-color-greencorn);
     font-size: 1.5rem;
-    margin: 3.0rem 0;
+    margin: 2.0rem 0;
   }
   
   .buttons span, 
@@ -176,8 +176,8 @@ ul, ol{
   #button-minus img,
   #button-plus img
   {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   
   .buttons{
@@ -186,7 +186,7 @@ ul, ol{
 
 ul li,
 ol li{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 li{
@@ -194,7 +194,7 @@ li{
 }
 
 h1{
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .bottom{
